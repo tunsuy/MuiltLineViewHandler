@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DDE89B531CDB1E5D00842069 /* FormsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE89B521CDB1E5D00842069 /* FormsTableViewCell.m */; };
+		DDE89B591CDD916100842069 /* RightAccessView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE89B561CDD916100842069 /* RightAccessView.m */; };
+		DDE89B5A1CDD916100842069 /* RightTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE89B581CDD916100842069 /* RightTextView.m */; };
+		DDE89B601CDD916E00842069 /* UIColor+WebColor.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE89B5D1CDD916E00842069 /* UIColor+WebColor.m */; };
+		DDE89B611CDD916E00842069 /* ViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE89B5F1CDD916E00842069 /* ViewHelper.m */; };
+		DDE89B641CDD91B700842069 /* UIView+CustomKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE89B631CDD91B700842069 /* UIView+CustomKeyboard.m */; };
 		DDF009E91C84660D007B6BEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF009E81C84660D007B6BEF /* main.m */; };
 		DDF009EC1C84660D007B6BEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF009EB1C84660D007B6BEF /* AppDelegate.m */; };
 		DDF009EF1C84660D007B6BEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF009EE1C84660D007B6BEF /* ViewController.m */; };
@@ -15,10 +21,6 @@
 		DDF009F71C84660D007B6BEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF009F51C84660D007B6BEF /* LaunchScreen.storyboard */; };
 		DDF00A021C84660D007B6BEF /* MuiltLineViewHandlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF00A011C84660D007B6BEF /* MuiltLineViewHandlerTests.m */; };
 		DDF00A0D1C84660D007B6BEF /* MuiltLineViewHandlerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF00A0C1C84660D007B6BEF /* MuiltLineViewHandlerUITests.m */; };
-		DDF00A1C1C84684A007B6BEF /* RightTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF00A1B1C84684A007B6BEF /* RightTextView.m */; };
-		DDF00A211C846FA3007B6BEF /* ViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF00A201C846FA3007B6BEF /* ViewHelper.m */; };
-		DDF00A241C8573AD007B6BEF /* UIColor+WebColor.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF00A231C8573AD007B6BEF /* UIColor+WebColor.m */; };
-		DDF00A291C86C7F9007B6BEF /* RightAccessView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF00A281C86C7F9007B6BEF /* RightAccessView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DDE89B511CDB1E5D00842069 /* FormsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormsTableViewCell.h; sourceTree = "<group>"; };
+		DDE89B521CDB1E5D00842069 /* FormsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormsTableViewCell.m; sourceTree = "<group>"; };
+		DDE89B551CDD916100842069 /* RightAccessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightAccessView.h; sourceTree = "<group>"; };
+		DDE89B561CDD916100842069 /* RightAccessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightAccessView.m; sourceTree = "<group>"; };
+		DDE89B571CDD916100842069 /* RightTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightTextView.h; sourceTree = "<group>"; };
+		DDE89B581CDD916100842069 /* RightTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightTextView.m; sourceTree = "<group>"; };
+		DDE89B5C1CDD916E00842069 /* UIColor+WebColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WebColor.h"; sourceTree = "<group>"; };
+		DDE89B5D1CDD916E00842069 /* UIColor+WebColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WebColor.m"; sourceTree = "<group>"; };
+		DDE89B5E1CDD916E00842069 /* ViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewHelper.h; sourceTree = "<group>"; };
+		DDE89B5F1CDD916E00842069 /* ViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewHelper.m; sourceTree = "<group>"; };
+		DDE89B621CDD91B700842069 /* UIView+CustomKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CustomKeyboard.h"; sourceTree = "<group>"; };
+		DDE89B631CDD91B700842069 /* UIView+CustomKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CustomKeyboard.m"; sourceTree = "<group>"; };
 		DDF009E41C84660D007B6BEF /* MuiltLineViewHandler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuiltLineViewHandler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDF009E81C84660D007B6BEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DDF009EA1C84660D007B6BEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,16 +69,8 @@
 		DDF00A081C84660D007B6BEF /* MuiltLineViewHandlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuiltLineViewHandlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDF00A0C1C84660D007B6BEF /* MuiltLineViewHandlerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MuiltLineViewHandlerUITests.m; sourceTree = "<group>"; };
 		DDF00A0E1C84660D007B6BEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDF00A1A1C84684A007B6BEF /* RightTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightTextView.h; sourceTree = "<group>"; };
-		DDF00A1B1C84684A007B6BEF /* RightTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightTextView.m; sourceTree = "<group>"; };
-		DDF00A1F1C846FA3007B6BEF /* ViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewHelper.h; sourceTree = "<group>"; };
-		DDF00A201C846FA3007B6BEF /* ViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewHelper.m; sourceTree = "<group>"; };
-		DDF00A221C8573AD007B6BEF /* UIColor+WebColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WebColor.h"; sourceTree = "<group>"; };
-		DDF00A231C8573AD007B6BEF /* UIColor+WebColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WebColor.m"; sourceTree = "<group>"; };
 		DDF00A251C8596D0007B6BEF /* GlobalDefined.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalDefined.h; sourceTree = "<group>"; };
 		DDF00A261C859B40007B6BEF /* MuiltLineViewHandler-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MuiltLineViewHandler-Prefix.pch"; sourceTree = "<group>"; };
-		DDF00A271C86C7F9007B6BEF /* RightAccessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightAccessView.h; sourceTree = "<group>"; };
-		DDF00A281C86C7F9007B6BEF /* RightAccessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightAccessView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DDE89B501CDB1E3900842069 /* MuiltForms */ = {
+			isa = PBXGroup;
+			children = (
+				DDE89B511CDB1E5D00842069 /* FormsTableViewCell.h */,
+				DDE89B521CDB1E5D00842069 /* FormsTableViewCell.m */,
+			);
+			path = MuiltForms;
+			sourceTree = "<group>";
+		};
+		DDE89B541CDD916100842069 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				DDE89B551CDD916100842069 /* RightAccessView.h */,
+				DDE89B561CDD916100842069 /* RightAccessView.m */,
+				DDE89B571CDD916100842069 /* RightTextView.h */,
+				DDE89B581CDD916100842069 /* RightTextView.m */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		DDE89B5B1CDD916E00842069 /* ShareClass */ = {
+			isa = PBXGroup;
+			children = (
+				DDE89B5C1CDD916E00842069 /* UIColor+WebColor.h */,
+				DDE89B5D1CDD916E00842069 /* UIColor+WebColor.m */,
+				DDE89B5E1CDD916E00842069 /* ViewHelper.h */,
+				DDE89B5F1CDD916E00842069 /* ViewHelper.m */,
+				DDE89B621CDD91B700842069 /* UIView+CustomKeyboard.h */,
+				DDE89B631CDD91B700842069 /* UIView+CustomKeyboard.m */,
+			);
+			path = ShareClass;
+			sourceTree = "<group>";
+		};
 		DDF009DB1C84660D007B6BEF = {
 			isa = PBXGroup;
 			children = (
@@ -115,18 +154,13 @@
 		DDF009E61C84660D007B6BEF /* MuiltLineViewHandler */ = {
 			isa = PBXGroup;
 			children = (
+				DDE89B5B1CDD916E00842069 /* ShareClass */,
+				DDE89B541CDD916100842069 /* CustomView */,
+				DDE89B501CDB1E3900842069 /* MuiltForms */,
 				DDF009EA1C84660D007B6BEF /* AppDelegate.h */,
 				DDF009EB1C84660D007B6BEF /* AppDelegate.m */,
-				DDF00A1A1C84684A007B6BEF /* RightTextView.h */,
-				DDF00A1B1C84684A007B6BEF /* RightTextView.m */,
-				DDF00A271C86C7F9007B6BEF /* RightAccessView.h */,
-				DDF00A281C86C7F9007B6BEF /* RightAccessView.m */,
 				DDF009ED1C84660D007B6BEF /* ViewController.h */,
 				DDF009EE1C84660D007B6BEF /* ViewController.m */,
-				DDF00A221C8573AD007B6BEF /* UIColor+WebColor.h */,
-				DDF00A231C8573AD007B6BEF /* UIColor+WebColor.m */,
-				DDF00A1F1C846FA3007B6BEF /* ViewHelper.h */,
-				DDF00A201C846FA3007B6BEF /* ViewHelper.m */,
 				DDF009F01C84660D007B6BEF /* Main.storyboard */,
 				DDF009F31C84660D007B6BEF /* Assets.xcassets */,
 				DDF009F51C84660D007B6BEF /* LaunchScreen.storyboard */,
@@ -294,12 +328,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDF00A291C86C7F9007B6BEF /* RightAccessView.m in Sources */,
-				DDF00A241C8573AD007B6BEF /* UIColor+WebColor.m in Sources */,
-				DDF00A211C846FA3007B6BEF /* ViewHelper.m in Sources */,
-				DDF00A1C1C84684A007B6BEF /* RightTextView.m in Sources */,
+				DDE89B531CDB1E5D00842069 /* FormsTableViewCell.m in Sources */,
 				DDF009EF1C84660D007B6BEF /* ViewController.m in Sources */,
+				DDE89B611CDD916E00842069 /* ViewHelper.m in Sources */,
 				DDF009EC1C84660D007B6BEF /* AppDelegate.m in Sources */,
+				DDE89B591CDD916100842069 /* RightAccessView.m in Sources */,
+				DDE89B641CDD91B700842069 /* UIView+CustomKeyboard.m in Sources */,
+				DDE89B5A1CDD916100842069 /* RightTextView.m in Sources */,
+				DDE89B601CDD916E00842069 /* UIColor+WebColor.m in Sources */,
 				DDF009E91C84660D007B6BEF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,8 +478,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MuiltLineViewHandler/MuiltLineViewHandler-Prefix.pch";
 				INFOPLIST_FILE = MuiltLineViewHandler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.MuiltLineViewHandler;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.pocket;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -455,8 +492,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MuiltLineViewHandler/MuiltLineViewHandler-Prefix.pch";
 				INFOPLIST_FILE = MuiltLineViewHandler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.MuiltLineViewHandler;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.pocket;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -528,6 +566,7 @@
 				DDF00A131C84660D007B6BEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDF00A141C84660D007B6BEF /* Build configuration list for PBXNativeTarget "MuiltLineViewHandlerTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +575,7 @@
 				DDF00A161C84660D007B6BEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDF00A171C84660D007B6BEF /* Build configuration list for PBXNativeTarget "MuiltLineViewHandlerUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +584,7 @@
 				DDF00A191C84660D007B6BEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
